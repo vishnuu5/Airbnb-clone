@@ -94,11 +94,11 @@ const Footer = () => {
                             </div>
                             <div className="flex items-center space-x-2 text-gray-300">
                                 <Phone className="w-4 h-4" />
-                                <span className="text-sm">+1 (555) 123-4567</span>
+                                <span className="text-sm">+91 5551234567</span>
                             </div>
                             <div className="flex items-center space-x-2 text-gray-300">
                                 <MapPin className="w-4 h-4" />
-                                <span className="text-sm">San Francisco, CA</span>
+                                <span className="text-sm">Mumbai, MH</span>
                             </div>
                         </div>
                     </div>
@@ -106,7 +106,7 @@ const Footer = () => {
 
                 <div className="border-t border-gray-800 mt-8 pt-8">
                     <div className="flex flex-col md:flex-row justify-between items-center">
-                        <p className="text-gray-400 text-sm">© 2024 StayFinder. All rights reserved.</p>
+                       <p className="text-gray-400 text-sm">&copy; {new Date().getFullYear()} StayFinder. All rights reserved.</p>
                         <div className="flex space-x-6 mt-4 md:mt-0">
                             <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
                                 Privacy Policy
@@ -126,3 +126,4 @@ const Footer = () => {
 }
 
 export default Footer
+
